@@ -22,7 +22,7 @@ $(document).ready(function(){
 			return totalSalaries += x;
 		}
 
-		$("#monthlySalary").text("COST OF SALARIES \n PER MONTH = " + addSalaries(parseInt(values.employeeSalary) / 12));	
+		$("#monthlySalary").text("COST OF SALARIES PER MONTH = " + addSalaries(parseInt(values.employeeSalary) / 12));	
 	
 		$("#employeeContainer").on("click", "button", function(){
 			$(this).parent().remove();
@@ -31,14 +31,13 @@ $(document).ready(function(){
 });
 
 
-
-
 function appendDom(employee){
 	//console.log(employee);
 	$("#employeeContainer").append("<div class='employee'></div>");
 	var $el = $("#employeeContainer").children().last();
 
-	$el.append("<p>" + employee.employeeName + "</p>");
+	$el.append("<p>" + employee.employeeFirstName + "</p>");
+	$el.append("<p>" + employee.employeeLastName + "</p>");
 	$el.append("<p>" + employee.employeeID + "</p>");
 	$el.append("<p>" + employee.employeeTitle + "</p>");
 	$el.append("<p>" + employee.employeeSalary + "</p>");
