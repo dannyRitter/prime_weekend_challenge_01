@@ -30,9 +30,10 @@ input {
 	font-size: 18px;
 }
 
-#employeeContainer {
+.employee {
 	font-size: 22px;
 	display: inline;
+	float: left;
  	margin: 0 1em 0 1em;
     width: 150px;
 }
