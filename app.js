@@ -36,11 +36,11 @@ function appendDom(employee){
 	$("#employeeContainer").append("<div class='employee'></div>");
 	var $el = $("#employeeContainer").children().last();
 
-	$el.append("<p>" + employee.employeeFirstName + "</p>");
-	$el.append("<p>" + employee.employeeLastName + "</p>");
-	$el.append("<p>" + employee.employeeID + "</p>");
-	$el.append("<p>" + employee.employeeTitle + "</p>");
-	$el.append("<p>" + employee.employeeSalary + "</p>");
+	$el.append("<p>First Name: " + employee.employeeFirstName + "</p>");
+	$el.append("<p>Last Name: " + employee.employeeLastName + "</p>");
+	$el.append("<p>Employee ID: " + employee.employeeID + "</p>");
+	$el.append("<p>Employee Title: " + employee.employeeTitle + "</p>");
+	$el.append("<p>Employee Salary: " + employee.employeeSalary + "</p>");
 	$el.append("<button class='deleteEmployee'>Delete New Employee</button>");
 }
 
