@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type='text/javascript' src='app.js'></script>
+  		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+
+		<h1>Monthly Employee Salary Calculator</h1>
+
+		<form id='employeeInfo'>
+			<label for='employeeName'>Name:</label>
+			<input type='text' id='employeeName' name='employeeName'/>
+			<label for='employeeID'>ID Number:</label>
+			<input type='text' id='employeeID' name='employeeID'/>
+			<label for='employeeTitle'>Job Title:</label>
+			<input type='text' id='employeeTitle' name='employeeTitle'/>
+			<label for='employeeSalary'>Annual Salary:</label>
+			<input type='text' id='employeeSalary' name='employeeSalary'/>
+			<input type='submit' value='Submit Employee'/>
+
+		</form>	
+		<div id="monthlySalary"></div>
+		<div id="employeeContainer"></div>
+		
+
+	</body>
+</html>

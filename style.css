@@ -1,0 +1,44 @@
+body {
+    margin: 1em;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+
+h1 {
+	font-size: 38px;
+	margin: auto;
+	padding: 10px 0px 25px 0px;
+	text-align: center;
+	border: 5px;
+	text-decoration: underline;
+
+}
+
+
+#employeeInfo {
+	text-align: center;
+}
+
+label {
+	
+	font-size: 16px;
+}
+
+input {
+	
+	font-size: 18px;
+}
+
+#employeeContainer {
+	font-size: 22px;
+	display: inline;
+ 	margin: 0 1em 0 1em;
+    width: 150px;
+}
+
+#monthlySalary {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
