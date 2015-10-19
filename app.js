@@ -41,7 +41,7 @@ function appendDom(employee){
 	$el.append("<p>" + employee.employeeID + "</p>");
 	$el.append("<p>" + employee.employeeTitle + "</p>");
 	$el.append("<p>" + employee.employeeSalary + "</p>");
-	$el.append("<button class='deleteEmployee'> New Delete Employee </button>");
+	$el.append("<button class='deleteEmployee'>Delete New Employee</button>");
 }
 
 //console.log(totalSalaries);
